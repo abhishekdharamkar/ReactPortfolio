@@ -1,0 +1,94 @@
+@import url("Contact.css");
+@import url("About.css");
+
+.body{
+    background-image: url("../Images/b1.jpg");
+    
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.div-btn{
+    letter-spacing: 3px;
+}
+.span-tab{
+    
+    margin-right: 29px;
+
+}
+
+.button-tab{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 22px;
+    
+
+    
+}
+.profile{
+    background-color:white ;
+    margin-top: 50px;
+   margin-left: 10%;
+    /* 
+    margin-right: 10%; */
+    height: 19rem;
+    float: right;
+    
+    
+}
+.profile-text{
+    float: left;
+    margin-top: 28px;
+    margin-left: 42px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    /* line-height-step: 2px; */
+    word-spacing: 9px;
+    border: 1px solid rebeccapurple ;
+    box-shadow: 2px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 8px 12px #888888;
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+    
+    }
+.profile-image{
+    float: right;
+   
+}
+.profile-img{
+    margin-top: 12px;
+    margin-right: 12px;
+    height:250px;
+   alt: "error";
+    width:350px;
+}
+img{
+    border-radius: 22px;
+}
+.footer{
+    
+   color: rgb(68, 134, 190);
+    text-align: center;
+    margin-top: 7rem;
+    
+}
+.e img{
+    width: 80px;
+    height: 81px;
+    border:solid 1px rgb(0, 25, 248);
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    
+  }
+  .mail{
+    text-decoration: underline;
+    color: #888888;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }

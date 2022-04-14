@@ -1,0 +1,50 @@
+.body-contact{
+    background-image: url("/src/Images/b3.jpg") ;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+.profile-links{
+    
+    
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    /* line-height-step: 2px; */
+    word-spacing: 17px;
+    
+    padding: 10px;
+    color: rgb(175, 17, 17);
+   text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: #000000;
+        text-align: center;
+    }
+    a:hover{
+        transition: 1s;
+        font-size:2rem;
+    }
+    .profile-contact{
+        
+        height: 86%;
+        width: 16rem;
+        position: absolute;
+        
+        margin-top: 50px;
+
+        margin-left: 1%;
+       
+        opacity: 0.9;
+
+        background-size: cover;
+        background-color: white;
+
+    }
+    .footer-contact{
+        margin-top: 92%;
+    }
+
+    @media only screen and (max-width:1024) {
+        
+    }
